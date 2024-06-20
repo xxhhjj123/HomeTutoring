@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <com.example.hometutoring.MyTextView
+        android:id="@+id/gundon"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="   名师一对一辅导啦!   欢迎大家加入到倾心家教！  好好学习，天天向上！"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+</LinearLayout>
+
